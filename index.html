@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="renderer" content="webkit">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/basic.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- 顶部导航 -->
+            <div class="nav">
+                <div class="container">
+                    <div class="logo lt">
+                        <a href="/tday201704/">
+                            <img class="logo-white" src="css/img/logo-new.png">
+                            <img class="logo-black" src="css/img/logo-s.png">
+                        </a>
+                    </div>
+                    <ul class="nav-list rt">
+                        <li class="nav-item lt">本期话题</li>
+                        <li class="nav-item lt">活动日程</li>
+                        <li class="nav-item lt">联系我们</li>
+                        <li class="nav-item lt nav-apply"><span class="nav-apply-btn">立即报名</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Hamburger -->
+            <ul class="hamburger">
+                <li class="hamburger-item hamburger-top"></li>
+                <li class="hamburger-item hamburger-middle"></li>
+                <li class="hamburger-item hamburger-bottom"></li>
+            </ul>
+            <!-- 圆形动画遮罩层 -->
+            <div class="circle"></div>
+            <!-- section banner -->
+            <div class="section banner">
+                <div class="m-logo-container">
+                    <img class="m-logo" src="css/img/logo-new.png">
+                </div>
+                <div class="banner-wrapper">
+                    <div class="container">
+                    	<div class="banner-content">
+                            <span class="banner-time">8 月 10 日 下午</span>
+                            <span class="banner-addr">北京</span>
+                        </div>
+                        <div class="banner-slogan">
+                            <img class="slogan" src="css/img/text.png">
+                            <img class="slogan-mob" src="css/img/text-mob.png">
+                        </div>
+                        <div class="banner-apply-btn">
+                           	我要报名
+                        </div>
+                    </div>
+                </div>
+                <ul class="banner-sponsor">
+                    <li class="sponsor-item">
+                        <span class="sponsor-label">主办方：</span>
+                        <a class="sponsor-link" href="http://www.traveldaily.cn/" target="_blank">
+                            <img src="css/img/td.png">
+                        </a>
+                    </li>
+                    <li class="sponsor-item">
+                        <span class="sponsor-label">赞助商：</span>
+                        <a class="sponsor-link" href="#">
+                            <img src="css/img/guoshuang.png">
+                        </a>
+                        <a class="sponsor-link" href="#">
+                            <img src="css/img/mafengwo.png">
+                        </a>
+                        <a class="sponsor-link" href="#">
+                            <img src="css/img/kaiyuan.png">
+                        </a>
+                        <a class="sponsor-link" href="#">
+                            <img src="css/img/qian.png">
+                        </a>
+                    </li>
+                </ul>
+                <img class="m-downarrow" src="css/img/pgdn.png">
+            </div>
+            <!-- section Intro -->
+            <div class="section intro">
+                <div class="intro-list">
+                    <p class="intro-item">数字时代给旅游业带来了全新的要求。酒店、航司开始用新的技术手段和在线服务加速调整，装备自己；与此同时，OTA不断强化前端用户体验，挖掘用户数据价值，增强个性化推荐。伴随在线旅游市场的不断成熟，体验要求的不断提高，当用户体验差异化成为竞争的核心因素时，旅游企业该如何借助各类数字工具，更好的理解和满足旅游用户需求？</p>
+                    <p class="intro-item">如何利用A/B测试深挖用户的关注点？如何利用品牌数据优化旅程服务？8月10日，周四下午，旅讯开放日将在北京举办，国双科技解决方案事业部总经理卢元、吆喝科技副总裁柏利锋等嘉宾将分享提升用户的平台体验、品牌影响体验及全流程体验的数据经验及案例。</p>
+                    <!--<p class="intro-item"><span class="intro-title">口碑管理</span>如何挖掘更深层次的数据，如何进行更细致的数据分析？如何让团队中的每个成员都能成为数据分析师？如何利用用户行为数据分析，提升用户忠诚和体验，提升直销转化？5月24日，旅讯开放日将在上海举办，蚂蜂窝旅行网技术总监韩鑫、GrowingIO业务增长负责人揭发等嘉宾将带来数据分析技能、思维和团队建设的行业经验和案例，帮助旅游企业在数据分析上“化繁为简”。</p>-->
+                </div>
+            </div>
+            <!-- section schedule -->
+            <div class="section schedule">
+                <ul class="schedule-list">
+                    <li class="schedule-item">
+                    <span class="schedule-time lt">
+                        13:30 - 14:00
+                    </span>
+                        <div class="schedule-item-description lt">
+                            <img class="m-schedule-photo" src="css/img/mob-schedule1.png">
+                            <p class="m-schedule-time minheight">
+                                13:30 - 14:00
+                                <em>签到</em>
+                            </p>
+                            <b class="caret"></b>
+                            <h4 class="schedule-item-title">签到</h4>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time lt">14:00 - 14:40</span>
+                        <div class="schedule-item-description lt">
+                            <img class="m-schedule-photo big" src="css/img/head/wangling.png">
+                            <p class="m-schedule-time">
+                                14:00 - 14:40
+                                <em>主题演讲</em>
+                            </p>
+                            <b class="caret"></b>
+                            <h4 class="schedule-item-title title-share"><em>主题演讲：</em>数据驱动营销产生价值</h4>
+                            <p class="topic-intro">华住大数据营销的基础建设有哪三步曲？华住是如何将大数据营销运用在线下门店场景，流量变现的尝试效果如何？</p>
+                            <div class="schedule-guest-intro noconfirm">
+                                <p class="schedule-item-guest">
+                                    <img class="schedule-guest-photo lt" src="css/img/head/wangling.png">华住酒店集团 &nbsp;CMO &nbsp;王玲
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time lt">14:40 - 15:20</span>
+                        <div class="schedule-item-description lt">
+                            <img class="m-schedule-photo big" src="css/img/head/luyuan.png">
+                            <p class="m-schedule-time">
+                                14:40 - 15:20
+                                <em>主题演讲</em>
+                            </p>
+                            <b class="caret"></b>
+                            <h4 class="schedule-item-title title-share"><em>主题演讲：</em>旅游用户流程优化解决方案</h4>
+                            <p class="topic-intro">从流量获取，再到产品运营、商品运营、用户运营，这过程中提升转化的关键点有哪些？</p>
+                            <div class="schedule-guest-intro">
+                                <p class="schedule-item-guest">
+                                    <img class="schedule-guest-photo lt" src="css/img/head/luyuan.png">国双科技 &nbsp;解决方案事业部总经理 &nbsp;卢元
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                    <span class="schedule-time lt">
+                        15:20 - 15:50
+                    </span>
+                        <div class="schedule-item-description lt">
+                            <img class="m-schedule-photo" src="css/img/mob-schedule2.png">
+                            <p class="m-schedule-time minheight">
+                                15:20 - 15:50
+                                <em>茶歇</em>
+                            </p>
+                            <b class="caret"></b>
+                            <h4 class="schedule-item-title">茶歇</h4>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time lt">15:50 - 16:30</span>
+                        <div class="schedule-item-description lt">
+                            <img class="m-schedule-photo big" src="css/img/head/bailifeng.png">
+                            <p class="m-schedule-time">
+                                15:50 - 16:30
+                                <em>主题演讲</em>
+                            </p>
+                            <b class="caret"></b>
+                            <h4 class="schedule-item-title title-share"><em>主题演讲：</em>旅游企业如何利用A/B Test打磨产品</h4>
+                            <p class="topic-intro">通过改变传统的自上而下的数据体系建设思路，通过数据平台产品化降低技术使用门槛，让所有岗位的小伙伴都能够加入到数据体系建设中来，形成公司整体的自下而上的数据驱动能力。</p>
+                            <div class="schedule-guest-intro">
+                                <p class="schedule-item-guest">
+                                    <img class="schedule-guest-photo lt" src="css/img/head/bailifeng.png">吆喝科技 &nbsp;副总裁 &nbsp;柏利锋
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="schedule-item">
+                        <span class="schedule-time lt">16:30 - 17:20</span>
+                        <div class="schedule-item-description m-discussion lt">
+                            <img class="m-schedule-photo big" src="css/img/mob-schedule3.png">
+                            <p class="m-schedule-time">
+                                16:30 - 17:20
+                                <em>圆桌座谈</em>
+                            </p>
+                            <b class="caret"></b>
+                            <h4 class="schedule-item-title title-share minheight"><em>圆桌座谈：</em>旅游企业如何借助数据利器提升用户体验</h4>
+                            <p class="topic-intro">数据潜力无穷，但其价值的挖掘并非技术活，更重要的是如何发现。拥有大量数据的旅游企业，如何洞察背后的商业价值和商业应用场景，将数据有价值地甚至创新性地应用？</p>
+                            <div class="schedule-guest-intro">
+                                <p class="schedule-item-guest">
+                                    <img class="schedule-guest-photo m-schedule-photo lt" src="css/img/head/yinqianyuan.png">开元曼居酒店管理有限公司 &nbsp;总经理 &nbsp;殷乾元
+                                </p>
+                            </div>
+                            <!--<div class="schedule-guest-intro">-->
+                                <!--<p class="schedule-item-guest">-->
+                                    <!--<img class="schedule-guest-photo m-schedule-photo lt" src="css/img/head/huchenming.png">携程旅行网 &nbsp;搜索营销部总经理 &nbsp;胡琛明-->
+                                <!--</p>-->
+                            <!--</div>-->
+                            <!--<div class="schedule-guest-intro">-->
+                                <!--<p class="schedule-item-guest">-->
+                                    <!--<img class="schedule-guest-photo m-schedule-photo lt" src="css/img/head/zhangchi.png">东方航空 &nbsp;转型办副主任 &nbsp;张弛-->
+                                <!--</p>-->
+                            <!--</div>-->
+                            <div class="schedule-guest-intro">
+                                <p class="schedule-item-guest">
+                                    <img class="schedule-guest-photo m-schedule-photo lt" src="css/img/head/luoqiwu.png">岂安科技 &nbsp;CEO &nbsp;罗启武
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="schedule-item last-item">
+                    <span class="schedule-time lt">
+                        17:20 - 17:30
+                    </span>
+                        <div class="schedule-item-description lt">
+                            <img class="m-schedule-photo" src="css/img/mob-schedule1.png">
+                            <p class="m-schedule-time minheight">
+                                17:20 - 17:30
+                                <em>主持人结语</em>
+                            </p>
+                            <b class="caret"></b>
+                            <h4 class="schedule-item-title">主持人结语</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- section 门票 -->
+            <div class="section ticket">
+                <div class="container">
+                    <!-- 门票分类 -->
+                    <ul class="ticket-category">
+                        <li class="category-item category-vip ticket-choose">
+                            <h3 class="category-title">VIP 票</h3>
+                        </li>
+                        <li class="category-item category-coupon">
+                            <h3 class="category-title">活动联票</h3>
+                            <p class="category-description">（低价包揽2017活动）</p>
+                        </li>
+                        <li class="category-item category-free">
+                            <h3 class="category-title">限量免费票</h3>
+                            <p class="category-description">（限旅游企业）</p>
+                        </li>
+                    </ul>
+                    <!-- 门票分类详情 -->
+                    <div class="ticket-list">
+                        <!-- vip 票 -->
+                        <div class="ticket-item active" id="ticket-vip">
+                            <!-- 报名信息 -->
+                            <div class="form-step step-1 active">
+                                <h3 class="step-title">390 元/位【免审核直通票+前排留座】</h3>
+                                <div class="form-group">
+                                    <div class="form-item lt">
+                                        <span class="form-label lt">您的姓名</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" data-role='[{ "name": "姓名" }]'>
+                                            <p class="form-tips">请输入您的姓名</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-item rt">
+                                        <span class="form-label lt">公司简称</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" data-role='[{ "name": "公司简称" }]'>
+                                            <p class="form-tips">请输入公司简称</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item lt">
+                                        <span class="form-label lt">您的职位</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" data-role='[{ "name": "职位" }]'>
+                                            <p class="form-tips">请输入您的职位</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-item rt">
+                                        <span class="form-label lt">所在行业</span>
+                                        <div class="form-input-container lt">
+                                            <select class="form-select" data-role='[{ "name": "行业" }]'>
+                                                <option value="0">请选择所在行业</option>
+                                                <option value="77">航空公司</option>
+                                                <option value="78">酒店</option>
+                                                <option value="79">OTA/旅游搜索引擎</option>
+                                                <option value="143">GDS</option>
+                                                <option value="140">公寓/非标准住宿业（民宿等）</option>
+                                                <option value="80">旅行社/机票代理人</option>
+                                                <option value="81">景区/目的地</option>
+                                                <option value="82">旅游局</option>
+                                                <option value="83">邮轮</option>
+                                                <option value="84">租车/用车</option>
+                                                <option value="144">B2B分销平台/批发商</option>
+                                                <option value="145">社区/攻略/点评网站</option>
+                                                <option value="146">行程规划/定制游</option>
+                                                <option value="147">旅游地产</option>
+                                                <option value="203">TMC/MICE</option>
+                                                <option value="204">综合性旅游文化企业</option>
+                                                <option value="73">旅游科技（如 PMS、B2B分销技术、呼叫中心、云服务等）</option>
+                                                <option value="72">数字营销（如 SEO、社交媒体营销、用户体验设计等）</option>
+                                                <option value="74">商务服务（如保险、投融资、管理/咨询等）</option>
+                                                <option value="75">媒体</option>
+                                                <option value="76">其他</option>
+                                            </select>
+                                            <p class="form-tips">请输入公司简称</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item lt">
+                                        <span class="form-label lt">手机号码</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" placeholder="请准确填写本人手机号以便及时收取通知" data-role='[{ "name": "手机号", "reg": "/(^(13[0-9]|15[012356789]|18[0-9]|14[57]|17[0-9])[0-9]{8}$)|(^09\d{8}$)|(^[569]\d{7}$)|(^(66|62)\d{6}$)/" }]'>
+                                            <p class="form-tips">请输入您的手机号码</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-item rt">
+                                        <span class="form-label lt">电子邮箱</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" placeholder="请填写公司电子邮件以便接收《参会确认函》" data-role='[{ "name": "电子邮箱", "reg": "/^\\w+([-+.]\\w+)*[@]\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$/" }]'>
+                                            <p class="form-tips">请输入您的电子邮箱</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group vip-next">
+                                    <button class="form-btn btn-middle next-btn">下一步</button>
+                                </div>
+                            </div>
+                            <!-- 发票 -->
+                            <div class="form-step step-2">
+                                <h3 class="step-title">信息提交后，将会发送《付款细则》到您的邮箱</h3>
+                                <div class="form-group">
+                                    <div class="form-item lt">
+                                        <span class="form-label lt">发票内容</span>
+                                        <div class="form-input-container lt">
+                                            <select class="form-select" id="ddlInvoice">
+                                                <option value="1">会议费</option>
+                                                <option value="2">信息技术咨询服务费</option>
+                                                <option value="3">展览服务费</option>
+                                                <option value="0">不需要发票</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-item rt">
+                                        <span class="form-label lt">发票抬头</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input candisable" type="text" data-role='[{ "name":  "发票抬头" }]' id="txtInvoiceTitle">
+                                            <p class="form-tips">请输入发票抬头</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item postcode-wrapper lt">
+                                    <span class="form-label lt">
+                                        发票地址
+                                    </span>
+                                        <div class="form-input-container lt">
+                                            <div class="select-group">
+                                                <select class="form-select select-province candisable lt" data-role='[{ "name": "省份" }]' id="ddlProvince">
+                                                    <option value="0">请选择省份</option>
+                                                    <option value="1">北京市</option>
+                                                    <option value="9">上海市</option>
+                                                    <option value="19">广东省</option>
+                                                    <option value="11">浙江省</option>
+                                                    <option value="10">江苏省</option>
+                                                    <option value="23">四川省</option>
+                                                    <option value="2">天津市</option>
+                                                    <option value="3">河北省</option>
+                                                    <option value="4">山西省</option>
+                                                    <option value="5">内蒙古自治区</option>
+                                                    <option value="6">辽宁省</option>
+                                                    <option value="7">吉林省</option>
+                                                    <option value="8">黑龙江省</option>
+                                                    <option value="12">安徽省</option>
+                                                    <option value="13">福建省</option>
+                                                    <option value="14">江西省</option>
+                                                    <option value="15">山东省</option>
+                                                    <option value="16">河南省</option>
+                                                    <option value="17">湖北省</option>
+                                                    <option value="18">湖南省</option>
+                                                    <option value="20">广西壮族自治区</option>
+                                                    <option value="21">海南省</option>
+                                                    <option value="22">重庆市</option>
+                                                    <option value="24">贵州省</option>
+                                                    <option value="25">云南省</option>
+                                                    <option value="26">西藏自治区</option>
+                                                    <option value="27">陕西省</option>
+                                                    <option value="28">甘肃省</option>
+                                                    <option value="29">青海省</option>
+                                                    <option value="30">宁夏回族自治区</option>
+                                                    <option value="31">新疆维吾尔自治区</option>
+                                                </select>
+                                                <select class="form-select select-city candisable rt" data-role='[{ "name": "城市" }]' id="ddlCity">
+                                                    <option value="0">请选择城市</option>
+                                                    <option value="1">广州市</option>
+                                                    <option value="2">南昌</option>
+                                                    <option value="3">桂林</option>
+                                                </select>
+                                            </div>
+                                            <input class="form-input postcode candisable" type="text" placeholder="邮政编码" data-role='[{ "name": "邮政编码" }]' id="txtPostcode">
+                                            <input class="form-input address candisable" type="text" placeholder="详细地址" data-role='[{ "name": "详细地址" }]' id="txtAddress">
+                                            <p class="form-tips">请输入详细地址</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-item remark-wrapper rt">
+                                        <span class="form-label lt">备注说明</span>
+                                        <div class="form-input-container lt">
+                                            <textarea class="form-input form-remark" id="txtRemark"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group btn-center-wrapper">
+                                    <button class="form-btn btn-small prev-btn">上一步</button>
+                                    <button class="form-btn btn-small submit-vip">提交</button>
+                                </div>
+                            </div>
+                            <!-- 报名完成 -->
+                            <div class="form-step step-3">
+                                <h3 class="step-title success-title">提交成功<img src="css/img/success.png"></h3>
+                                <p class="success-text">感谢您报名参加环球旅讯主办的“<span>【旅讯开放日】用分析思维将数据“化繁为简”：技能、思维和团队</span>”活动！</p>
+                                <p class="success-text">您的报名信息已经提交。稍后我们将发送《付款细则》到您的邮箱，协助您安排报名确认事宜。</p>
+                                <p class="success-text">如有疑问，请拨打 020-28829750 联系我们。</p>
+                            </div>
+                        </div>
+                        <!-- 活动联票 -->
+                        <div class="ticket-item" id="ticket-coupon">
+                            <h3 class="step-title">最低 ￥3480，包揽下半年旅讯活动</h3>
+                            <ul class="coupon">
+                                <li class="coupon-item">
+                                    <p class="coupon-instruction lt">环球旅讯全年在线讲堂免审核门票</p>
+                                    <p class="coupon-num rt">×5张</p>
+                                </li>
+                                <li class="coupon-item">
+                                    <p class="coupon-instruction lt">
+                                        <a href="http://event.traveldaily.cn/tdc2017/" target="_blank">环球旅讯峰会</a>（9月13-14日）门票</p>
+                                    <p class="coupon-num rt">×1张</p>
+                                </li>
+                                <li class="coupon-item">
+                                    <p class="coupon-instruction lt">
+                                        <a href="http://event.traveldaily.cn/adc2017/" target="_blank">中国航空营销峰会</a>（10月18-19日）门票
+                                    </p>
+                                    <p class="coupon-num rt">×1张</p>
+                                </li>
+                            </ul>
+                            <div class="coupon-price">
+                                <div class="coupon-price-item lt">航空公司：￥3480/套</div>
+                                <div class="coupon-price-item lt">旅游业：￥4080/套</div>
+                                <div class="coupon-price-item lt" style="margin-right: 0;">非旅游业：￥5200/套 </div>
+                            </div>
+                            <div class="btn-center-wrapper">
+                                <a class="form-btn btn-large coupon-btn" href="#">点击这里，查看联票详情</a>
+                            </div>
+                        </div>
+                        <!-- 限量免费票 -->
+                        <div class="ticket-item" id="ticket-free">
+                            <div class="form-step step-1 active">
+                                <h3 class="step-title">仅开放 150 个免费名额（限旅游企业），报名后需审核。</h3>
+                                <div class="form-group">
+                                    <div class="form-item lt">
+                                        <span class="form-label lt">您的姓名</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" data-role='[{ "name": "姓名" }]'>
+                                            <p class="form-tips">请输入您的姓名</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-item rt">
+                                        <span class="form-label lt">公司简称</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" data-role='[{ "name": "公司简称" }]'>
+                                            <p class="form-tips">请输入公司简称</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item lt">
+                                        <span class="form-label lt">您的职位</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" data-role='[{ "name": "职位" }]'>
+                                            <p class="form-tips">请输入您的职位</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-item rt">
+                                        <span class="form-label lt">所在行业</span>
+                                        <div class="form-input-container lt">
+                                            <select class="form-select" data-role='[{ "name": "行业" }]'>
+                                                <option value="0">请选择所在行业</option>
+                                                <option value="77">航空公司</option>
+                                                <option value="78">酒店</option>
+                                                <option value="79">OTA/旅游搜索引擎</option>
+                                                <option value="143">GDS</option>
+                                                <option value="140">公寓/非标准住宿业（民宿等）</option>
+                                                <option value="80">旅行社/机票代理人</option>
+                                                <option value="81">景区/目的地</option>
+                                                <option value="82">旅游局</option>
+                                                <option value="83">邮轮</option>
+                                                <option value="84">租车/用车</option>
+                                                <option value="144">B2B分销平台/批发商</option>
+                                                <option value="145">社区/攻略/点评网站</option>
+                                                <option value="146">行程规划/定制游</option>
+                                                <option value="147">旅游地产</option>
+                                                <option value="203">TMC/MICE</option>
+                                                <option value="204">综合性旅游文化企业</option>
+                                                <option value="73">旅游科技（如 PMS、B2B分销技术、呼叫中心、云服务等）</option>
+                                                <option value="72">数字营销（如 SEO、社交媒体营销、用户体验设计等）</option>
+                                                <option value="74">商务服务（如保险、投融资、管理/咨询等）</option>
+                                                <option value="75">媒体</option>
+                                                <option value="76">其他</option>
+                                            </select>
+                                            <p class="form-tips">请输入公司简称</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item lt">
+                                        <span class="form-label lt">手机号码</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" placeholder="请准确填写本人手机号以便及时收取通知" data-role='[{ "name": "手机号", "reg": "/(^(13[0-9]|15[012356789]|18[0-9]|14[57]|17[0-9])[0-9]{8}$)|(^09\d{8}$)|(^[569]\d{7}$)|(^(66|62)\d{6}$)/" }]'>
+                                            <p class="form-tips">请输入您的手机号码</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-item rt">
+                                        <span class="form-label lt">电子邮箱</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" placeholder="请填写公司邮件地址以便接收《参会确认函》" data-role='[{ "name": "电子邮箱", "reg": "/^\\w+([-+.]\\w+)*[@]\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$/" }]'>
+                                            <p class="form-tips">请输入您的电子邮箱</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item large-item">
+                                        <span class="form-label lt">备注说明</span>
+                                        <div class="form-input-container lt">
+                                            <input class="form-input" type="text" placeholder="如有联票号，请留下您的联票号码；或写下向演讲/座谈嘉宾的提问" id="free_Remark">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group btn-right-wrapper">
+                                    <button class="form-btn btn-middle submit-free">提交</button>
+                                </div>
+                            </div>
+                            <!-- 报名完成 -->
+                            <div class="form-step step-2">
+                                <h3 class="step-title success-title">提交成功<img src="css/img/success.png"></h3>
+                                <p class="success-text">感谢您报名参加环球旅讯主办的“<span>【旅讯开放日】用分析思维将数据“化繁为简”：技能、思维和团队</span>”活动！</p>
+                                <p class="success-text">您的报名信息已经提交。稍后我们将发送《付款细则》到您的邮箱，协助您安排报名确认事宜。</p>
+                                <p class="success-text">如有疑问，请拨打 020-28829750 联系我们。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 手机端 -->
+                    <ul class="m-ticket-list">
+                        <li class="m-ticket-item m-ticket-vip">
+                            <a class="m-ticket-link" href="/tday201704/register">
+                                <span class="m-ticket-title lt">VIP 票 <b>(390元 / 位)</b></span>
+                                <span class="m-ticket-instruction lt">无需审核</span>
+                                <span class="m-ticket-arrow lt">
+	                                <i></i>
+	                            </span>
+                            </a>
+                        </li>
+                        <li class="m-ticket-item m-ticket-coupon">
+                            <a class="m-ticket-link" href="/packaged/">
+                                <span class="m-ticket-title lt">活动联票</span>
+                                <span class="m-ticket-instruction lt">低价包揽2017活动</span>
+                                <span class="m-ticket-arrow lt">
+	                                <i></i>
+	                            </span>
+                            </a>
+                        </li>
+                        <li class="m-ticket-item m-ticket-free">
+                            <a class="m-ticket-link" href="/tday201704/regfree">
+                                <span class="m-ticket-title lt">免费票</span>
+                                <span class="m-ticket-instruction lt">限旅游企业</span>
+                                <span class="m-ticket-arrow lt">
+	                                <i></i>
+	                            </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- section map -->
+            <div class="section map">
+                <div id="map"></div>
+                <div class="map-info">
+                    <h3 class="map-info-title">场地&活动时间</h3>
+                    <ol class="map-description">
+                        <li class="map-item activity-time">2017-8-10（星期四下午）14 : 00 - 17 : 35</li>
+                        <li class="map-item activity-city">
+                            <a href="http://j.map.baidu.com/7p3Ne" target="_blank">上海 COCO SPACE （漕河泾站）</a>
+                        </li>
+                        <li class="map-item activity-address"><a href="http://j.map.baidu.com/7p3Ne" target="_blank">上海市徐汇区田林路200号C栋一楼</a></li>
+                    </ol>
+                </div>
+                <!-- 手机端 -->
+                <div class="m-map">
+                    <div class="m-map-info">
+                        <p class="m-map-item m-activity-time">2017-8-10（星期三下午）14 : 00 - 17 : 35</p>
+                        <p class="m-map-item m-activity-city">
+                            上海 COCO SPACE （漕河泾站）
+                        </p>
+                        <p class="m-map-item m-activity-address">
+                            上海市徐汇区田林路200号C栋一楼
+                        </p>
+                        <div class="m-map-addresslink">
+                            <a href="http://j.map.baidu.com/7p3Ne" target="_blank">查看地图&gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section footer -->
+            <div class="section footer">
+                <div class="container">
+                    <div class="footer-part-top">
+                        <div class="activity-info lt">
+                            <h3 class="about-activity-title">关于旅讯开放日</h3>
+                            <p class="activity-description">
+                                旅讯开放日（TDAY）是环球旅讯定期举办的关于热门行业话题 ，以及创新模式、创新科技、创新产品的线下交流活动。每年平均举办6场，主要在一线城市以及部分二线城市。
+                            </p>
+                        </div>
+                        <ul class="footer-list rt">
+                            <li class="footer-item footer-item-one lt">
+                                <h3 class="footer-item-title"><i></i>我要报名</h3>
+                                <ul class="segmentation">
+                                    <li class="segmentation-item">
+                                        <a href="javascript:;">VIP 报名</a>
+                                    </li>
+                                    <li class="segmentation-item">
+                                        <a href="javascript:;">活动联票</a>
+                                    </li>
+                                    <li class="segmentation-item">
+                                        <a href="javascript:;">限量免费票</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer-item footer-item-two lt">
+                                <h3 class="footer-item-title"><i></i>联系我们</h3>
+                                <ul class="segmentation">
+                                    <li class="segmentation-item">
+                                        <p>报名咨询</p>
+                                        <p>李青芪 Lee Li</p>
+                                        <p>020-2882 9750</p>
+                                        <p>
+                                            <a href="javascript:;">register@traveldaily.cn</a>
+                                        </p>
+                                    </li>
+                                    <li class="segmentation-item">
+                                        <p>赞助咨询</p>
+                                        <p>曾琳昕 Echo Zeng</p>
+                                        <p>020-2882 9757</p>
+                                        <p>
+                                            <a href="javascript:;">echo@traveldaily.cn</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer-item footer-item-three lt">
+                                <h3 class="footer-item-title">近期活动</h3>
+                                <ul class="segmentation">
+                                    <li class="segmentation-item">
+                                        <a href="http://event.traveldaily.cn/webinar201703/" target="_blank">在线讲堂 | 如何做以用户为中心的“机 + X”营销</a>
+                                    </li>
+                                    <li class="segmentation-item">
+                                        <a href="http://event.traveldaily.cn/webinar201704/" target="_blank">在线讲堂 | 提升酒店直销订单转化</a>
+                                    </li>
+                                    <li class="segmentation-item">
+                                        <a href="http://event.traveldaily.cn/tdc2017/" target="_blank">2017 环球旅讯峰会</a>
+                                    </li>
+                                    <li class="segmentation-item">
+                                        <a href="http://event.traveldaily.cn/adc2017/" target="_blank">2017 中国航空营销峰会</a>
+                                    </li>
+                                    <li class="segmentation-item">
+                                        <a href="http://event.traveldaily.cn/pcw2017/" target="_blank">2017 Phocuswright 会议</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-part-bottom">
+                        <span class="review-title lt">往期回顾：</span>
+                        <a class="review-item lt" href="http://event.traveldaily.cn/tday201703/report/" target="_blank">2017 年 6 月</a>
+                        <a class="review-item lt" href="http://event.traveldaily.cn/tday201702/report/" target="_blank">2017 年 5 月</a>
+                        <a class="review-item lt" href="http://event.traveldaily.cn/tday201701/report/" target="_blank">2017 年 3 月</a>
+                        <a class="review-item lt" href="http://event.traveldaily.cn/tday201606/report/" target="_blank">2016 年 12 月</a>
+                        <a class="review-item lt" href="http://event.traveldaily.cn/tday201605/report/" target="_blank">2016 年 11 月</a>
+                        <a class="review-item lt" href="http://event.traveldaily.cn/tday201604/report/" target="_blank">2016 年 9 月</a>
+                        <a class="review-item lt" href="http://event.traveldaily.cn/tday201603/report/" target="_blank">2016 年 7 月</a>
+                        <a class="review-item lt" href="http://event.traveldaily.cn/tday201602/report/" target="_blank">2016 年 4 月</a>
+                        <!--<a class="review-item lt" href="http://event.traveldaily.cn/tday201601/report/" target="_blank">2016 年 1 月</a>-->
+                    </div>
+                    <ul class="m-footer-list">
+                        <li class="m-footer-item">
+                            <i class="m-footer-icon m-icon1"></i>
+                            <div class="m-segmentation">
+                                <p>报名咨询：020-2882 9750</p>
+                                <p>赞助咨询：020-2882 9757</p>
+                            </div>
+                        </li>
+                        <li class="m-footer-item">
+                            <i class="m-footer-icon m-icon2"></i>
+                            <div class="m-segmentation">
+                                <p>2017 年 5 月 24 日</p>
+                            </div>
+                        </li>
+                        <li class="m-footer-item">
+                            <i class="m-footer-icon m-icon3"></i>
+                            <div class="m-segmentation">
+                                <p>上海市徐汇区田林路200号C栋一楼</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        <div class="copyright-img">
+                            <a class="copyright-link" href="http://www.traveldaily.cn/" target="_blank">
+                                <img class="copyright-logo" src="css/img/footer-logo.png">
+                            </a>
+                        </div>
+                        <div class="copyright-menu">
+                            <a href="http://www.traveldaily.cn/" target="_blank">新闻</a>
+                            <i>|</i>
+                            <a href="http://event.traveldaily.cn/" target="_blank">活动</a>
+                            <i>|</i>
+                            <a href="http://event.traveldaily.cn/packaged/" target="_blank">活动联票</a>
+                            <i>|</i>
+                            <a href="http://www.traveldaily.cn/marketing/hr" target="_blank">招聘</a>
+                            <i>|</i>
+                            <a href="http://www.chinatravelnews.com/" target="_blank">ChinaTravelNews</a>
+                        </div>
+                        <p class="copy">© 2017 环球旅讯 TravelDaily Inc</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 演讲嘉宾弹窗 -->
+        <div class="introduce">
+            <div class="introduce-bg"></div>
+            <ul class="introduce-list">
+                <li class="close-introduce">×</li>
+                <li class="introduce-item">
+                    <div class="introduce-photo">
+                        <img src="css/img/head/wangling.png">
+                    </div>
+                    <div class="introduce-info">
+                        <h3 class="introduce-name">王玲</h3>
+                        <p class="introduce-company">华住酒店集团</p>
+                        <p class="introduce-job">CMO</p>
+                    </div>
+                    <p class="introduce-description">
+                        从事酒店营销工作20多年，开创了国内连锁酒店集团直销体系。其带领下的华住营销团队，在会员计划，收益管理，互联网平台战略各方面都有很多的创新实践，始终推动华住保持着行业最好的经营业绩。
+                    </p>
+                </li>
+                <li class="introduce-item">
+                    <div class="introduce-photo">
+                        <img src="css/img/head/luyuan.png">
+                    </div>
+                    <div class="introduce-info">
+                        <h3 class="introduce-name">卢元</h3>
+                        <p class="introduce-company">国双科技</p>
+                        <p class="introduce-job">解决方案事业部总经理</p>
+                    </div>
+                    <p class="introduce-description">
+                       	擅长搜索整合营销、数据监测及分析。曾在广告行业有近10年的从业经验。2011年加盟国双，担任过销售经理，华东数据分析师总监，全国解决方案咨询总监，现负责全国解决方案事业部数据分析及监测产品业务。五年来曾服务耐克，上汽大众，米其林，欧莱雅等众多商业领域顶尖客户。同时参与重大客户如上汽大众，可口可乐，米其林，金沙酒店等客户的提案和workshop。
+                    </p>
+                </li>
+                <li class="introduce-item">
+                    <div class="introduce-photo">
+                        <img src="css/img/head/bailifeng.png">
+                    </div>
+                    <div class="introduce-info">
+                        <h3 class="introduce-name">柏利锋</h3>
+                        <p class="introduce-company">吆喝科技</p>
+                        <p class="introduce-job">副总裁</p>
+                    </div>
+                    <p class="introduce-description">
+                       	多年从事营销自动化、数据优化、企业服务经验，曾负责并参与微软商城、骑鹅旅行、平安证券、中银消费金融、参考消息等众多企业A/B测试应用实践。
+                    </p>
+                </li>
+                <li class="introduce-item">
+                    <div class="introduce-photo">
+                        <img src="css/img/head/yinqianyuan.png">
+                    </div>
+                    <div class="introduce-info">
+                        <h3 class="introduce-name">殷乾元</h3>
+                        <p class="introduce-company">开元曼居酒店管理有限公司</p>
+                        <p class="introduce-job">总经理</p>
+                    </div>
+                    <p class="introduce-description">
+                        十余年酒店管理与运营经验，在酒店整体市场营销体系构建及品牌营销上经验丰富。2011年，带领团队构建开元酒店整体的市场营销体系，自2013年更是带领“开元曼居酒店”实现从0到1的突破。
+                    </p>
+                </li>
+                <!--<li class="introduce-item">-->
+                    <!--<div class="introduce-photo">-->
+                        <!--<img src="css/img/head/huchenming.png">-->
+                    <!--</div>-->
+                    <!--<div class="introduce-info">-->
+                        <!--<h3 class="introduce-name">胡琛明</h3>-->
+                        <!--<p class="introduce-company">携程旅行网</p>-->
+                        <!--<p class="introduce-job">搜索营销部总经理</p>-->
+                    <!--</div>-->
+                    <!--<p class="introduce-description">-->
+                        <!--2002年12月加入携程网，现担任搜索营销部总经理，负责各类效果类营销渠道，是活跃在效果营销战线上的一枚老兵。-->
+                    <!--</p>-->
+                <!--</li>-->
+                <!--<li class="introduce-item">-->
+                    <!--<div class="introduce-photo">-->
+                        <!--<img src="css/img/head/zhangchi.png">-->
+                    <!--</div>-->
+                    <!--<div class="introduce-info">-->
+                        <!--<h3 class="introduce-name">张弛</h3>-->
+                        <!--<p class="introduce-company">东方航空</p>-->
+                        <!--<p class="introduce-job">转型办副主任</p>-->
+                    <!--</div>-->
+                    <!--<p class="introduce-description">-->
+                        <!--加入航空运输业16年，先后从事运营管理、培训管理、销售管理、市场管理等工作。现负责推动东航转型发展、空中互联网平台建设与运营等。-->
+                    <!--</p>-->
+                <!--</li>-->
+                <li class="introduce-item">
+                    <div class="introduce-photo">
+                        <img src="css/img/head/luoqiwu.png">
+                    </div>
+                    <div class="introduce-info">
+                        <h3 class="introduce-name">罗启武</h3>
+                        <p class="introduce-company">岂安科技</p>
+                        <p class="introduce-job">CEO</p>
+                    </div>
+                    <p class="introduce-description">
+                        曾担任携程集团应用安全技术负责人，国内知名专业漏洞平台Sebug创始人，红狼安全组织发起人之一，上海信安协会理事。现任岂安科技CEO，率领安全产品及研发团队致力于安全架构、安全产品等领域的深耕。他有十多年安全领域经验，尤其在应用安全，安全产品的研发，人机识别，安全对抗，防欺诈等领域积累了丰富的实战经验。
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </body>
+    <script src="http://api.map.baidu.com/api?v=2.0&amp;ak=vNqoG0TSivV7LmrIV1QczqHSjE8RTKGw"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/index2.js"></script>
+    <script>
+        window.onload = function () {
+            var map = new BMap.Map("map");
+            var point = new BMap.Point(121.413916,31.176543);
+            map.centerAndZoom(point, 16);
+            var marker = new BMap.Marker(point);
+            map.addOverlay(marker);
+        }
+    </script>
+</html>
